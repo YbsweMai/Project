@@ -3,7 +3,7 @@
     <div class="container-left">
       <!-- <img src="../assets/auth.png" alt=""> -->
       <img :src="user.avatar" alt="" />
-      <h3>昵称</h3>
+      <h3>{{ user.nickname }}</h3>
       <!-- <h2>个人中心</h2> -->
       <h2
         @click="change('usercenter')"
